@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Main</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      #txt_welcome {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .card {
+        text-align: center;
+      }
+
+      .card_title {
+        font-size: 20px;
+      }
+
+      .card_button {
+        background-color: black;
+        color: #ffffff;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 150px;
+        height: 30px;
+      }
+
+      .card_img {
+        width: 300px;
+        height: 600px;
+      }
+      .card_img2 {
+        width: 600px;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>임형준의 포트폴리오</h1>
+    <div id="txt_welcome">
+      안녕하세요 <br />
+      사용자 경험에 대해 늘 고민하는 임형준입니다.<br />
+      제 프로젝트를 소개합니다.
+      <br />
+      <br />
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+      <div class="card">
+        <img class="card_img" src="./asset/smu_festival.png" />
+        <p class="card_title">상명대학교 축제사이트</p>
+        <p class="card_title">맡은역할:Front-End</p>
+        <input
+          class="card_button"
+          type="button"
+          value="구경하기"
+          onclick="location.href='https:github.com/hyeongjun6364/2023_Sangmyung_Festa_FE?tab=readme-ov-file'"
+        />
+      </div>
+      <div class="card">
+        <img class="card_img" src="./asset/Startpage.png" />
+        <p class="card_title">손틈새로</p>
+        <p class="card_title">맡은역할:Front-End</p>
+        <input
+          class="card_button"
+          type="button"
+          value="구경하기"
+          onclick="location.href='https:github.com/a-minute-society/front-end'"
+        />
+      </div>
+      <div class="card">
+        <img class="card_img2" src="./asset/kt_project.png" />
+        <p class="card_title">도로시설물 유지보수 프로젝트</p>
+        <p class="card_title">맡은역할:AI</p>
+        <input
+          class="card_button"
+          type="button"
+          value="구경하기"
+          onclick="location.href='https:github.com/hyeongjun6364/kt_al_road_facility_maintenance?tab=readme-ov-file'"
+        />
+      </div>
+    </div>
+  </body>
+</html>
